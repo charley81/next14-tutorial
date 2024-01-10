@@ -3,7 +3,7 @@ import TaskList from '@/components/task-list'
 
 export default function TasksPage() {
   return (
-    <div>
+    <div className="max-w-lg">
       <TaskForm />
       <TaskList />
     </div>
